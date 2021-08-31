@@ -1,12 +1,7 @@
 #go-simple-crud
 
 postgres orm && router \
-add .env export DIALECT="postgres" \
-export HOST="localhost" \
-export DBPORT="5432" \
-export USER="" \
-export NAME="" \
-export PASSWORD="***" 
+edit .env file
 
 sudo apt install postgresql postgresql-contrib \
 sudo -u postgres psql sudo passwd postgres \
